@@ -1,0 +1,5 @@
+Screenshot before lighthouse and wave (on Chrome using live server)
+
+Screenshot after using lighthouse and wave
+
+Sketch for each page (5)
