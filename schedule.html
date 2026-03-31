@@ -9,6 +9,23 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
         integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- AI used for description text -->
+    <!-- SEO Meat Tags -->
+    <meta name="description"
+        content="Stay Up to Date on the Lubbock Drifting League with Weekly Updates on Practice, Events, and News. Join the Thrilling World of Drifting in Lubbock!">
+    <meta name="keywords" content="creative media, filmaking, photography, Lubbock, drifting, motorsports, events, news">
+    <meta name="author" content="Dakota Harmon"> <!-- add your name if your website -->
+    <!-- Open Graph - OG -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://pixabay.com/images/download/dimitrisvetsikas1969-drifting-2410277_1920.jpg"><!-- needs real link -->
+    <meta property="og:title" content="Lubbock Drifting League">
+    <meta property="og:description" content="Stay Up to Date on the Lubbock Drifting League with Weekly Updates on Practice, Events, and News. Join the Thrilling World of Drifting in Lubbock!">
+    <meta property="og:image" content="https://pixabay.com/images/download/dimitrisvetsikas1969-drifting-2410277_1920.jpg"><!-- needs real link --> <!-- W:1200 - H:630 -->
+    <!-- Twitter Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Lubbock Drifting League">
+    <meta name="twitter:description" content="Stay Up to Date on the Lubbock Drifting League with Weekly Updates on Practice, Events, and News. Join the Thrilling World of Drifting in Lubbock!">
+    <meta name="twitter:image" content="https://pixabay.com/images/download/dimitrisvetsikas1969-drifting-2410277_1920.jpg"><!-- needs real link --> <!-- W:1200 - H:630 -->
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,12 +34,19 @@
         rel="stylesheet">
     <!-- CSS Files -->
     <link rel="stylesheet" href="assets/css/style.css">
+
 </head>
 
 <body>
-    <header id="top" class="page-header">
+    <header id="top" class="page-header" role="banner">
         <span class="nav-logo">LDL</span>
-        <nav class="main-nav">
+        <!-- <input type="checkbox" id="ham-toggle" class="ham-checkbox">
+        <label for="ham-toggle" class="ham-btn" aria-label="Toggle navigation menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label> -->
+        <nav class="main-nav" aria-label="main navigation">
             <a href="index.html" class="nav-link">Home</a>
             <a href="news.html" class="nav-link">News</a>
             <a href="about.html" class="nav-link">About</a>
@@ -35,17 +59,17 @@
     <footer id="footer" class="page-footer">
         <p class="footer-copyright">Copyright &copy; 2026 Dakota Harmon. All rights reserved.</p>
         <nav class="footer-social">
-            <a href="#"><i class="fa-brands fa-youtube"></i></a>
-            <a href="#"><i class="fa-brands fa-instagram"></i></a>
-            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
-            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#" class="social-link" aria-label="Follow us on YouTube"><i class="fa-brands fa-youtube"></i></a>
+            <a href="#" class="social-link" aria-label="Follow us on Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" class="social-link" aria-label="Follow us on Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="#" class="social-link" aria-label="Follow us on Facebook"><i class="fa-brands fa-facebook"></i></a>
         </nav>
-        <nav class="footer-nav">
+        <nav class="footer-nav" aria-label="company links">
             <a href="index.html" class="nav-link">Home</a>
             <a href="news.html" class="nav-link">News</a>
             <a href="about.html" class="nav-link">About</a>
             <a href="contact.html" class="nav-link">Contact</a>
-            <a href="#top">Back to Top</a>
+            <a href="#top" class="nav-link">Back to Top</a>
         </nav>
     </footer>
 </body>
