@@ -1,4 +1,4 @@
-/* Reset & Base */
+/* ===== Reset & Base ===== */
 :root {
    --main-color: #FFFFFF;
    --second-color: #353535;
@@ -145,7 +145,7 @@ button {
    }
 }
 
-/* Header */
+/* ===== Header ===== */
 .page-header {
    display: flex;
    justify-content: space-between;
@@ -177,7 +177,7 @@ button {
    text-align: left;
 }
 
-/* Hero */
+/* ===== Hero ===== */
 .hero-section{
    position: relative;
    background-color: var(--main-color);
@@ -236,7 +236,7 @@ button {
    }
 
    
-/* CSS Grid Gallery */
+/* ===== CSS Grid Gallery ===== */
 .grid-container {
    display: grid;
    grid-template-columns: 1fr;
@@ -254,7 +254,7 @@ button {
    border-radius: 1.875rem;
 }
 
-/* Card Styles */
+/* ===== Card Styles ===== */
 article {
     background: var(--card-color);
     color: var(--word-alt-color);
@@ -363,7 +363,7 @@ a:focus,
    justify-content: center;
 }
 
-/* News */
+/* ===== News ===== */
 .news-heading {
    font-size: var(--font-size-section);
    font-family: var(--font-heading);
@@ -436,7 +436,19 @@ a:focus,
    margin-right: var(--space-md);
 }
 
-/* Footer */
+/* ===== Schedule Page ===== */
+
+
+/* ===== News Page ===== */
+
+
+/* ===== About Page ===== */
+
+
+/* ===== Contact Page ===== */
+
+
+/* ===== Footer ===== */
 .page-footer {
    display: flex;
    justify-content: space-between;
