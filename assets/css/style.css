@@ -436,26 +436,29 @@ a:focus,
    font-family: var(--font-heading);
    font-size: var(--font-size-section-lg);
    font-weight: 800;
-   margin: 40px 90px 40px 90px;
+   margin: 0 auto;
+   padding: 1.5rem;
    letter-spacing: 2px;
+   text-align: center;
 }
 
 .calendar-grid-container{
    display: grid;
-   grid-template-columns: repeat(auto-fit, minmax(200px, 2fr));
+   grid-template-columns: 1fr;
    background-color: var(--bubble-color);
-   border-radius: 25%;
    margin: 0 auto;
-   padding: var(--section-padding);
+   padding: 4rem;
    max-width: 100%;
-   height: 100vh;
+   height: 100%;
+   text-align: center;
+   line-height: 2.5rem;
 }
 
 .cal-title {
    text-transform: uppercase;
    font-family: var(--font-heading);
    font-weight: 700;
-   letter-spacing: 1px;
+   letter-spacing: 2px;
    border-bottom: 1px solid var(--card-color);
 }
 
@@ -464,6 +467,7 @@ a:focus,
    text-transform: uppercase;
    font-size: var(--font-size-card-title);
    letter-spacing: 1px;
+   font-weight: 600;
 }
 
 .cal-content {
@@ -690,6 +694,10 @@ a:focus,
    .grid-container article img { 
       height: 80%; 
    }
+
+   .calendar-grid-container {
+      grid-template-columns: repeat(1, 1fr);
+   }
 }
 
 @media (min-width: 768px) {
@@ -704,6 +712,10 @@ a:focus,
 
    .grid-container article img { 
       height: 80%; 
+   }
+
+   .calendar-grid-container {
+      grid-template-columns: repeat(2, 1fr);
    }
 }
 
@@ -732,5 +744,9 @@ a:focus,
 
    article.photo-four {
       grid-row: span 1;
+   }
+
+   .calendar-grid-container {
+      grid-template-columns: repeat(7, 1fr);
    }
 }
