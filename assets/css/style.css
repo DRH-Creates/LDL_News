@@ -171,11 +171,15 @@ button {
 
 .nav-logo {
    font-family: var(--font-body);
-   font-size: var(--font-size-label);
+   font-size: var(--font-size-body);
    text-transform: uppercase;
-   font-weight: 700;
+   font-weight: 800;
    letter-spacing: 3px;
    text-align: left;
+}
+
+.nav-logo a {
+   text-decoration: none;
 }
 
 /* ===== Hero ===== */
