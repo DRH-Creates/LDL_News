@@ -1,6 +1,12 @@
 Sources used to help code:
 ----------------------------------------------------------------------------------------------------------------------------
 
-Video by Eduonix
-    https://www.youtube.com/watch?v=Zqmh_Lgu_1Q&list=PLDmvslp_VR0zOT9EZpf9e58_lkZNtTPJf
+Miata Image:
+    Photo by Jacob Moore: https://www.pexels.com/photo/black-race-car-drifting-on-race-track-12330246/
 
+FRS Image:
+    Photo by Erik Mclean: https://www.pexels.com/photo/sleek-white-sports-car-by-a-tranquil-lake-33295833/
+
+Santa Image:
+    Image by <a href="https://pixabay.com/users/ralph_germany-10207476/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=8376658">Ralph/Altrip/Germany</a> from 
+    <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=8376658">Pixabay</a>

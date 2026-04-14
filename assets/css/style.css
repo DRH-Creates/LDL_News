@@ -365,7 +365,8 @@ a:focus,
    color: var(--word-color);
    font-weight: 800;
    line-height: 1.2;
-   margin-bottom: 1.25rem;
+   margin-bottom: 0 auto;
+   padding: 1rem;
    text-align: center;
    text-transform: uppercase;
 }
@@ -476,9 +477,6 @@ a:focus,
    font-weight: 500;
 }
 
-/* ===== News Page ===== */
-
-
 /* ===== About Page ===== */
 .about-page-section{
    position: relative;
@@ -511,7 +509,7 @@ a:focus,
    right: 0;
    left: 0;
    z-index: 1;
-   background-color: rgba(10, 10, 10, 0.5);
+   background-color: rgba(10, 10, 10, 0.4);
 }
 
 .about-page-image{
@@ -544,6 +542,18 @@ a:focus,
    margin: 0 auto;
    text-align: center;
    padding: var(--section-padding);
+}
+
+/* ===== News Page ===== */
+.articles-grid-news {
+   display: grid;
+   grid-template-columns: 1fr;
+   gap: var(--grid-gap-md);
+   max-width: var(--max-width-content);
+   margin: 0 auto;
+   width: 100%;
+   padding: 1rem;
+   text-align: center;
 }
 
 /* ===== Contact Page ===== */
@@ -583,7 +593,7 @@ a:focus,
 .nav-link {
    font-family: var(--font-heading);
    font-weight: 600;
-   line-height: 3px;
+   line-height: 2;
    transition: border-radius var(--transition-base),
                box-shadow var(--transition-base),
                color var(--transition-base),
@@ -717,6 +727,11 @@ a:focus,
    .calendar-grid-container {
       grid-template-columns: repeat(2, 1fr);
    }
+
+   .articles-grid-news {
+      grid-template-columns: repeat(2, 1fr);
+      justify-content: center;
+   }
 }
 
 /* Desktop */
@@ -734,19 +749,13 @@ a:focus,
       height: 80%; 
    }
 
-   article.photo-two {
-      grid-row: span 1;
-   }
-
-   article.photo-three {
-      grid-row: span 1;
-   }
-
-   article.photo-four {
-      grid-row: span 1;
-   }
-
    .calendar-grid-container {
       grid-template-columns: repeat(7, 1fr);
+   }
+
+   .articles-grid-news {
+      grid-template-columns: repeat(3, 1fr);
+      justify-content: center;
+      max-width: 100%;
    }
 }
